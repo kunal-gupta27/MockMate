@@ -1,7 +1,7 @@
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 // Initialize the Google Generative AI client with your API key
-const genAI = new GoogleGenerativeAI("AIzaSyAYMKoVfDVgIAdZUPah5pE3tDAPKGhGfGE");
+const genAI = new GoogleGenerativeAI("YOUR_API_KEY");
 
 // Get the generative model
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
