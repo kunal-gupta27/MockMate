@@ -60,3 +60,13 @@ MockMate-AI/
 ├── Backend/
 ├── FrontEnd/
 ├── README.md
+
+
+---
+
+# Made By
+
+Made with ❤️ by Kunal Gupta
+
+GitHub:
+https://github.com/kunal-gupta27
