@@ -155,36 +155,15 @@ npm start
 
 Create a `.env` file inside the Backend folder.
 
-```env
-MONGO_URI=your_mongodb_url
-JWT_SECRET=your_secret_key
-GEMINI_API_KEY=your_gemini_api_key
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_key
-CLOUDINARY_API_SECRET=your_cloudinary_secret
-EMAIL_USER=your_email
-EMAIL_PASS=your_email_password
-```
-
 ---
 
-## ⚠️ Common Issues
+## ⚠️ Common Issue
 
 ### ❌ Speech Recognition Not Working
 
 * Use Google Chrome browser
 * Allow microphone permissions
 * Ensure HTTPS or localhost is used
-
-### ❌ AI Responses Not Generating
-
-* Check Gemini API key
-* Verify backend environment variables
-
-### ❌ Resume Upload Failing
-
-* Ensure Cloudinary configuration is correct
-* Check multer middleware setup
 
 ---
 
