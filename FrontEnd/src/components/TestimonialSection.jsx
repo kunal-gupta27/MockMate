@@ -8,12 +8,12 @@ const testimonials = [
     name: "Vipul Khandelwal",
     role: "Software Engineer at Google",
     content:
-      "MetaHire's AI mock interviews helped me prepare for tough technical questions. The personalized feedback was invaluable in landing my dream job.",
+      "MockMate AI mock interviews helped me prepare for tough technical questions. The personalized feedback was invaluable in landing my dream job.",
     avatar:
       "https://media.licdn.com/dms/image/v2/D5603AQG05GoiixW1HQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729890286248?e=1744243200&v=beta&t=sFaX2LtiIGpFYRpXLGs06hjRO-2U4gTXsYSqFuOtDxA",
   },
   {
-    name: "Pratyush Ojha",
+    name: "Shivam Bhatnagar",
     role: "Machine Learning Engineer at Adiyog Tech pvt.ltd",
     content:
       "The resume analysis feature gave me insights I never would have considered. It completely transformed my approach to interviews.",
@@ -21,10 +21,10 @@ const testimonials = [
       "https://media.licdn.com/dms/image/v2/D5603AQG-6dyFmwLoXg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726308272507?e=1744243200&v=beta&t=GuijiAnSsraWCRqirj6XkWM0Z1lnaUjVBjTyN2kTL_U",
   },
   {
-    name: "Dev Goyal",
+    name: "Rachit Gangwar",
     role: "Brand ambassador at SwapSo",
     content:
-      "The domain-specific questions were spot-on. MetaHire helped me gain confidence and improve my technical communication skills.",
+      "The domain-specific questions were spot-on. MockMate helped me gain confidence and improve my technical communication skills.",
     avatar:
       "https://media.licdn.com/dms/image/v2/D4D03AQH7ez59ovGX7w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1694972916773?e=1744243200&v=beta&t=iek16m7-q2D5dr2zTOyqL-fnuDfrNOzFLO8QxXj6j4w",
   },
@@ -36,10 +36,10 @@ const TestimonialSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold text-blue-600">
-            Success Stories
+            What Our Users Say
           </h2>
           <p className="text-lg lg:text-xl text-gray-300 mt-4">
-            Hear from professionals who transformed their interview experience
+            Hear how MockMate has helped users improve their interview preparation.
           </p>
         </div>
 
