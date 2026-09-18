@@ -79,6 +79,7 @@ const Profile = () => {
   };
 
   const handlePhotoUpload = async (file) => {
+    
     if (!file) return;
 
     setUploadingPhoto(true);
@@ -120,7 +121,7 @@ const Profile = () => {
     }
   };
 
-  // Handle profile image change
+  // Handle profile image change setter
   const handleProfileImageChange = async (e) => {
     const file = e.target.files[0];
     if (file) {
