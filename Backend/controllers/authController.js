@@ -7,13 +7,13 @@ const generateToken = (id) => {
   return jwt.sign({ id }, process.env.JWT_SECRET || "secret123", { expiresIn: '1h' });
 };
 
-// ================= TEST =================
+// ================= TEST API =================
 exports.test = async (req, res) => {
   const { email, password } = req.body;
   return res.status(200).json({ email, password });
 };
 
-// ================= REGISTER =================
+// ================= REGISTER API =================
 exports.registerUser = async (req, res) => {
   const { email, password } = req.body;
 
